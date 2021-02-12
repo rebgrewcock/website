@@ -14,7 +14,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    rake (13.0.3)
+    rake (13.0.0)
     ruby-progressbar (1.11.0)
 
 PLATFORMS
@@ -24,7 +24,7 @@ PLATFORMS
 DEPENDENCIES
   minitest (~> 5.0)
   minitest-reporters (= 1.2.0)
-  rake (~> 13.0)
+  rake (= 13.0)
   rggrewco_palindrome!
 
 BUNDLED WITH
