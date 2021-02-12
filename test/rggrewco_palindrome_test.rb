@@ -13,7 +13,7 @@ class RggrewcoPalindromeTest < Minitest::Test
   end
 
   def test_mixed_case_palindrome
-    # FILL IN
+    skip
   end
 
   def test_palindrome_with_punctuation
