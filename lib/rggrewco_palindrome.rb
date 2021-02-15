@@ -2,7 +2,7 @@
 
 require_relative "rggrewco_palindrome/version"
 
-class String
+module RggrewcoPalindrome
 
   # Returns true for a palindrome, false otherwise.
   def palindrome?
@@ -15,4 +15,8 @@ class String
     def processed_content
       scan(/[a-z]/i).join.downcase
     end
+end
+
+class String
+  include RggrewcoPalindrome
 end
