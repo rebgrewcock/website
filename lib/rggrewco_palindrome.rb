@@ -13,10 +13,14 @@ module RggrewcoPalindrome
 
     # Returns content for palindrome testing.
     def processed_content
-      scan(/[a-z]/i).join.downcase
+      self.to_s.scan(/[a-z\d]/i).join.downcase
     end
 end
 
 class String
+  include RggrewcoPalindrome
+end
+
+class Integer
   include RggrewcoPalindrome
 end
